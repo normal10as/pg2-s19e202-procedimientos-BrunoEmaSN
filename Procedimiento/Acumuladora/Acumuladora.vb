@@ -7,11 +7,13 @@ Module Acumuladora
         Console.WriteLine("Ingrese un numero(decimal)")
         numero = Console.ReadLine()
         Acumular(numero, acumulador)
+        Console.WriteLine("acumulador = " & acumulador)
         Acumular(numero, acumulador)
+        Console.WriteLine("acumulador = " & acumulador)
         Acumular(numero, acumulador)
+        Console.WriteLine("acumulador = " & acumulador)
     End Sub
     Private Sub Acumular(ByVal numero, ByRef acumulador)
         acumulador += numero
-        Console.WriteLine("acumulador = " & acumulador)
     End Sub
 End Module

@@ -9,7 +9,7 @@ Module AhoraEs
     Private Sub fechaActual()
         Console.WriteLine("La fecha Actual es: " & Today)
     End Sub
-    Private Function horaActual()
+    Private Function horaActual() As String
         Return Now.Hour & ":" & Now.Minute & ":" & Now.Second
     End Function
 End Module
